@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    font-style: normal;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+
+a,
+span,
+label,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    display: inline-block;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+button,
+a:focus,
+a:hover {
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: initial;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    cursor: pointer;
+}
+
+
+button:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+
+ol,
+ul {
+    padding: 0px !important;
+    list-style: none;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+/*=============================
+text color
+================================*/
+.tc-6c {
+    color: #6C6C6C;
+}
+
+.tc-0a {
+    color: #0A0826;
+}
+
+.tc-18 {
+    color: #18191F;
+}
+
+.tc-ff {
+    color: #fff;
+}
+
+.tc-e0 {
+    color: #E02C6D;
+}
+
+/*=============================
+background color
+================================*/
+.bg-2d {
+    background-color: #2D25A0;
+}
+
+.bg-e0 {
+    background-color: #E02C6D;
+}
+
+.bg-96 {
+    background-color: #969BAB;
+}
+
+/*=============================
+header area starting
+================================*/
+.header-transparent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 30px 26px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+.header-btn button {
+    border: 1px solid #E02C6D;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.header-btn button:hover {
+    color: #fff !important;
+    background-color: transparent;
+}
+
+/*=============================
+banner area starting
+================================*/
+.banner-sec {
+    min-height: 937px;
+}
+
+.banner-btn a {
+    border: 1px solid #E02C6D;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.banner-btn a:hover {
+    color: #fff !important;
+    background-color: transparent;
+}
+
+/*=============================
+player area starting
+================================*/
+.single-player {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    padding: 15px;
+}
+
+.padding {
+    padding: 15px;
+}
+
+/*=============================
+highlights area starting
+================================*/
+.highlights-sec .banner-btn a:hover {
+    color: #E02C6D !important;
+}
+
+/*=============================
+news area starting
+================================*/
+.news-img img {
+    width: 300px;
+    height: 150px;
+}
+
+.newss-cont h3 {
+    line-height: 30px;
+}
+
+/*=============================
+hot news area starting
+================================*/
+.single-h-news {
+    padding: 15px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+/*=============================
+footer area starting
+================================*/
+.footer-area ul li a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    background: #E7E7E8;
+    font-size: 20px;
+    color: #969BAB;
+}
+
+.footer-area ul li {
+    margin: 0 10px;
+}
+
+#scrollUp {
+    background: #2D25A0;
+    height: 60px;
+    width: 60px;
+    right: 50px;
+    bottom: 77px;
+    color: #fff !important;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 20px;
+    line-height: 59px;
+}
+
+#scrollUp:hover {
+    background: #E02C6D;
+}
